@@ -1,0 +1,19 @@
+body {
+    background-image: url('../images/bg.jpg');
+  }
+
+.challenge-card,
+.outfit-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.challenge-card:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}

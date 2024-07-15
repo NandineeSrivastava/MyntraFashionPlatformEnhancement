@@ -1,0 +1,56 @@
+.body {
+    background-image: url('../images/bg.jpg');
+  }
+  .outfit-display img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.category .item {
+    display: inline-block;
+    background-color: #ff3f6c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 4px;
+}
+
+.leaderboard p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+button {
+    background-color: #ff3f6c;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #e7325e;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+/* Additional styles for the outfit selection */
+.category {
+    margin-bottom: 20px;
+}
+
+.item img {
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
